@@ -1,7 +1,7 @@
 local modem = peripheral.wrap("top")
 modem.closeAll()
 
-local printer = require("/printerLib/printer")
+local printer = require("/PrinterLib")
 
 local charset = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890"
 local output = ""
